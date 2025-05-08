@@ -1,7 +1,7 @@
 <template>
     <section class="hero">
       <div class="container">
-        <h1>Selamat Datang di Nama Lembaga</h1>
+        <h1>SELAMAT DI PONDOK PESANTREN ALBERR</h1>
         <p>Lembaga profesional yang berkomitmen untuk memberikan pelayanan terbaik</p>
         <button class="cta-button">Pelajari Lebih Lanjut</button>
       </div>
@@ -17,7 +17,7 @@
   <style scoped>
   .hero {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-                url('https://via.placeholder.com/1920x1080') no-repeat center center/cover;
+                url('@/assets/masjid.png') no-repeat center center/cover;
     color: white;
     text-align: center;
     padding: 150px 0;
@@ -27,6 +27,7 @@
   .hero h1 {
     font-size: 3rem;
     margin-bottom: 20px;
+    color: white;
   }
   
   .hero p {

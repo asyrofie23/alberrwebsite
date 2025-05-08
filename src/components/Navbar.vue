@@ -2,7 +2,9 @@
     <nav class="navbar">
       <div class="container">
         <div class="navbar-brand">
-          <router-link to="/" class="logo">PONDOK PESANTREN ALBERR</router-link>
+          <router-link to="/" class="logo">
+            <img src="@/assets/logo.png" alt="Logo Pondok Pesantren Alberr" class="logo-image">
+            PONDOK PESANTREN ALBERR</router-link>
         </div>
         <ul class="navbar-menu">
           <li><router-link to="/">Beranda</router-link></li>
@@ -38,11 +40,18 @@
   }
   
   .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
     color: white;
     font-size: 1.5rem;
     font-weight: bold;
     text-decoration: none;
   }
+  .logo-image {
+  height: 60px; /* Sesuaikan tinggi logo sesuai kebutuhan */
+  width: auto; /* Biarkan lebar menyesuaikan proporsi */
+}
   
   .navbar-menu {
     display: flex;
